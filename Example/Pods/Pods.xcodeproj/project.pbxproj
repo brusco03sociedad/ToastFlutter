@@ -17,9 +17,9 @@
 		757421D22A704C20005B6D63 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 757421CE2A704C20005B6D63 /* UIView+Toast.m */; };
 		757421D32A704C20005B6D63 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 757421CE2A704C20005B6D63 /* UIView+Toast.m */; };
 		757421D42A704C20005B6D63 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 757421CE2A704C20005B6D63 /* UIView+Toast.m */; };
-		757421D62A704D61005B6D63 /* ToastFlutter.h in Headers */ = {isa = PBXBuildFile; fileRef = 757421D52A704D61005B6D63 /* ToastFlutter.h */; };
-		757421D72A704D61005B6D63 /* ToastFlutter.h in Headers */ = {isa = PBXBuildFile; fileRef = 757421D52A704D61005B6D63 /* ToastFlutter.h */; };
-		757421D82A704D61005B6D63 /* ToastFlutter.h in Headers */ = {isa = PBXBuildFile; fileRef = 757421D52A704D61005B6D63 /* ToastFlutter.h */; };
+		757421DA2A7054BB005B6D63 /* ToastFlutter.h in Headers */ = {isa = PBXBuildFile; fileRef = 757421D92A7054BB005B6D63 /* ToastFlutter.h */; };
+		757421DB2A7054BB005B6D63 /* ToastFlutter.h in Headers */ = {isa = PBXBuildFile; fileRef = 757421D92A7054BB005B6D63 /* ToastFlutter.h */; };
+		757421DC2A7054BB005B6D63 /* ToastFlutter.h in Headers */ = {isa = PBXBuildFile; fileRef = 757421D92A7054BB005B6D63 /* ToastFlutter.h */; };
 		7B55CD0506E5472A944C7E7E087B4A73 /* Pods-ToastFlutter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E590BB459F630CD93F1E82EE7FFB3E7 /* Pods-ToastFlutter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B311DF27C4E0A4A37E35473E41682327 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BE52BA2E788354923759F83441154D58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -63,7 +63,7 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		757421CD2A704C20005B6D63 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "ToastFlutter/Classes/UIView+Toast.h"; sourceTree = "<group>"; };
 		757421CE2A704C20005B6D63 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "ToastFlutter/Classes/UIView+Toast.m"; sourceTree = "<group>"; };
-		757421D52A704D61005B6D63 /* ToastFlutter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastFlutter.h; sourceTree = "<group>"; };
+		757421D92A7054BB005B6D63 /* ToastFlutter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToastFlutter.h; path = ToastFlutter/Classes/ToastFlutter.h; sourceTree = "<group>"; };
 		7D692F4BACE8904E6C6A3D161977F6A3 /* Pods-ToastFlutter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToastFlutter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7DEB3C61D4C7D02E5F40651D997A8423 /* ToastFlutter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ToastFlutter-Info.plist"; sourceTree = "<group>"; };
 		8A0CC473199CA711D29CD08AE3EF09C0 /* Pods-ToastFlutter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToastFlutter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 		8D3E03EABED13318D65D804915E25843 /* ToastFlutter */ = {
 			isa = PBXGroup;
 			children = (
-				757421D52A704D61005B6D63 /* ToastFlutter.h */,
+				757421D92A7054BB005B6D63 /* ToastFlutter.h */,
 				757421CD2A704C20005B6D63 /* UIView+Toast.h */,
 				757421CE2A704C20005B6D63 /* UIView+Toast.m */,
 				7383D1C891A5D036F5E724864B0C29A5 /* Pod */,
@@ -242,7 +242,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				757421D82A704D61005B6D63 /* ToastFlutter.h in Headers */,
+				757421DC2A7054BB005B6D63 /* ToastFlutter.h in Headers */,
 				15819ED040F4829A476E20888515ABA6 /* ToastFlutter-umbrella.h in Headers */,
 				757421D12A704C20005B6D63 /* UIView+Toast.h in Headers */,
 			);
@@ -252,7 +252,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				757421D62A704D61005B6D63 /* ToastFlutter.h in Headers */,
+				757421DA2A7054BB005B6D63 /* ToastFlutter.h in Headers */,
 				7B55CD0506E5472A944C7E7E087B4A73 /* Pods-ToastFlutter_Example-umbrella.h in Headers */,
 				757421CF2A704C20005B6D63 /* UIView+Toast.h in Headers */,
 			);
@@ -262,7 +262,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				757421D72A704D61005B6D63 /* ToastFlutter.h in Headers */,
+				757421DB2A7054BB005B6D63 /* ToastFlutter.h in Headers */,
 				3F30C845332D1DE72151132FDF2DAEB2 /* Pods-ToastFlutter_Tests-umbrella.h in Headers */,
 				757421D02A704C20005B6D63 /* UIView+Toast.h in Headers */,
 			);
