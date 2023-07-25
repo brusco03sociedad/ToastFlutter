@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'ToastFlutter/Classes/**/*'
+  s.source_files = 'ToastFlutter/Classes/ToastFlutter.h'
   
 end
