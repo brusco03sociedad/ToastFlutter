@@ -1,0 +1,6 @@
+framework module ToastFlutter {
+  umbrella header "ToastFlutter-umbrella.h"
+
+  export *
+  module * { export * }
+}

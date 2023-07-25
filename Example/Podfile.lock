@@ -1,0 +1,16 @@
+PODS:
+  - ToastFlutter (0.1.0)
+
+DEPENDENCIES:
+  - ToastFlutter (from `../`)
+
+EXTERNAL SOURCES:
+  ToastFlutter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ToastFlutter: bc7035e05aec34e9ba875cabe23c4f71b0f43140
+
+PODFILE CHECKSUM: 3f954a60b58f4714bf403ec82feca091dcaa5cbb
+
+COCOAPODS: 1.12.1
